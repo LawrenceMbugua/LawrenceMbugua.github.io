@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- connection to bootstrap js -->
+
+    <script src="assets/bootstrap/js/jquery-3.4.0.js"></script>
+    <script src="assets/bootstrap/js/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.css.map" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap/css/bootstrap-grid.min.css.map"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>CSS Image Gallery</h1>
+
+    <!-- Gallery Section -->
+
+    <div class="gallery">
+      <div class="image-container" id="container1">
+        <a href="#image1">
+          <img src="assets/images/air (3).jpg" alt="" />
+        </a>
+        <p class="image-description">Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <div class="image-container" id="container1">
+        <a href="#image2">
+          <img src="assets/images/FB_IMG_16118281101259118.jpg" alt="" />
+        </a>
+        <p class="image-description">Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <div class="image-container" id="container1">
+        <a href="#image3">
+          <img src="assets/images/FB_IMG_16118282035894126.jpg" alt="" />
+        </a>
+        <p class="image-description">Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <div class="image-container" id="container1">
+        <a href="#image4">
+          <img src="assets/images/FB_IMG_16118283194329946.jpg" alt="" />
+        </a>
+        <p class="image-description">Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+
+    <!-- Lightbox section -->
+
+    <div class="lightbox" id="image1">
+      <a href="#container1" class="close">CLOSE</a>
+      <div class="lightbox-content">
+        <img src="assets/images/air (3).jpg" alt="image" />
+      </div>
+    </div>
+
+    <div class="lightbox" id="image2">
+      <a href="#container2" class="close">CLOSE</a>
+      <div class="lightbox-content">
+        <img src="assets/images/FB_IMG_16118281101259118.jpg" alt="image" />
+      </div>
+    </div>
+
+    <div class="lightbox" id="image3">
+      <a href="#container3" class="close">CLOSE</a>
+      <div class="lightbox-content">
+        <img src="assets/images/FB_IMG_16118282035894126.jpg" alt="image" />
+      </div>
+    </div>
+
+    <div class="lightbox" id="image4">
+      <a href="#container4" class="close">CLOSE</a>
+      <div class="lightbox-content">
+        <img src="assets/images/FB_IMG_16118283194329946.jpg" alt="image" />
+      </div>
+    </div>
+  </body>
+</html>
